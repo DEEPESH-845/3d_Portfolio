@@ -35,10 +35,10 @@ const Contact = () => {
     emailjs
       .send( 
           'service_p09cr7h',
-           'template_hfq08vm',
+          'template_hfq08vm',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Deepesh Kakkar",
           from_email: form.email,
           to_email: "sujata@jsmastery.pro",
           message: form.message,
