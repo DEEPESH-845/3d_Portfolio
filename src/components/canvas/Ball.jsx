@@ -6,11 +6,6 @@ import{
 
 import CanvasLoader from '../Loader';
 
-// const lod = new THREE.LOD();
-// lod.addLevel(lowResModel, 200); // Distance to switch to low res
-// lod.addLevel(highResModel, 0); // Distance for high res
-// scene.add(lod);
-
 
 const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);

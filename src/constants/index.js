@@ -38,7 +38,6 @@ import {
   import C from "../assets/company/C.png";
   import mysql from "../assets/company/mysql.png";
   import Davinci from "../assets/company/Davinci.png";
-  import Tableau from "../assets/tech/Tableau.png";
 import { px } from "framer-motion";
   
   export const navLinks = [
@@ -134,7 +133,6 @@ import { px } from "framer-motion";
       name: "MysQl",
       icon: mysql,
     },
-  
     {
       name: "Three JS",
       icon: threejs,
@@ -147,11 +145,8 @@ import { px } from "framer-motion";
       name: "figma",
       icon: figma,
     },
-
-    {
-      name: "Tableau",
-      icon: Tableau,
-    },S
+    
+   
   ];
   
   const experiences = [
