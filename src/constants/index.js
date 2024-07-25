@@ -38,7 +38,9 @@ import {
   import C from "../assets/company/C.png";
   import mysql from "../assets/company/mysql.png";
   import Davinci from "../assets/company/Davinci.png";
+  import tableau from "../assets/tech/tableau.png";
 import { px } from "framer-motion";
+
   
   export const navLinks = [
     {
@@ -64,14 +66,10 @@ import { px } from "framer-motion";
       title: "DSA",
       icon: DSA,
     },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
-    },
+    // {
+    //   title: "Backend Developer",
+    //   icon: backend,
+    // },
     {
       title: "React JS Developer",
       icon: mobile,
@@ -81,13 +79,22 @@ import { px } from "framer-motion";
       icon: dataanalytics,
     },
     {
+      title: "Tableau",
+      icon: tableau,
+    },
+    {
       title: "UI/UX Designer",
       icon:figma,
+    },
+    {
+      title: "Content Creator",
+      icon: creator,
     },
     {
       title: "Video Editor",
       icon: AfterEffects,
     },
+    
     
   ];
   
