@@ -39,7 +39,8 @@ import {
   import mysql from "../assets/company/mysql.png";
   import Davinci from "../assets/company/Davinci.png";
   import tableau from "../assets/tech/tableau.png";
-import { px } from "framer-motion";
+  import Screenshot from "../assets/Screenshot.png";
+// import { px } from "framer-motion";
 
   
   export const navLinks = [
@@ -236,25 +237,25 @@ import { px } from "framer-motion";
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Metaverse Madness",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A Web portal representation to explore unique virtual worlds while at home. The only platform that enables users to seamlessly explore and interact with immersive virtual worlds.",
       tags: [
         {
-          name: "nextjs",
+          name: "Tailwind-CSS",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "React.js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Framer-Motion",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: Screenshot ,
+      source_code_link: "https://github.com/DEEPESH-845/Metaverse.git",
     },
   ];
   
