@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import react , { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -34,7 +34,7 @@ const Contact = () => {
 
     emailjs
       .send( 
-          'service_p09cr7h',
+          'service_4iodykk',
           'template_hfq08vm',
         {
           from_name: form.name,
@@ -134,4 +134,5 @@ const Contact = () => {
   );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export default SectionWrapper(Contact, "contact");

@@ -1,46 +1,46 @@
+// Removed incorrect import of 'any' from 'Nodes.js'
+// import { any } from "three/examples/jsm/nodes/Nodes.js";
 
-import { any } from "three/examples/jsm/nodes/Nodes.js";
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
-    
-  } from "../assets";
+  mobile,
+  backend,
+  creator,
+  web,
+  javascript,
+  typescript,
+  html,
+  css,
+  reactjs,
+  redux,
+  tailwind,
+  nodejs,
+  mongodb,
+  git,
+  figma,
+  docker,
+  meta,
+  tesla,
+  shopify,
+  carrent,
+  
+  threejs,
+} from "../assets";
+
+import mlsclogo1 from "../assets/company/mlsclogo1.png";
+import owasplogo from "../assets/company/owasplogo.png";
+import AfterEffects from "../assets/AfterEffects.png";
+import dataanalytics from "../assets/company/dataanalytics.png";
+import DSA from "../assets/company/DSA.png";
+import CPLUS from "../assets/company/CPLUS.png";
+import mysql from "../assets/company/mysql.png";
+import davinci from "../assets/company/Davinci.png";
+import tableau from "../assets/tech/tableau.png";
+import Screenshot from "../assets/Screenshot.png";
+
+// Commented out incorrect import
+// import { px } from "framer-motion"; 
 
 
-  import  mlsclogo1  from "../assets/company/mlsclogo1.png";
-  import owasplogo from "../assets/company/owasplogo.png";
-  import  AfterEffects from "../assets/AfterEffects.png";
-  import dataanalytics from '../assets/company/dataanalytics.png';
-  import DSA from "../assets/company/DSA.png";
-  import CPLUS from "../assets/company/CPLUS.png";
-  import python from "../assets/company/python.png";
-  import C from "../assets/company/C.png";
-  import mysql from "../assets/company/mysql.png";
-  import Davinci from "../assets/company/Davinci.png";
-  import tableau from "../assets/tech/tableau.png";
-  import Screenshot from "../assets/Screenshot.png";
-// import { px } from "framer-motion";
 
   
   export const navLinks = [
@@ -60,7 +60,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Next.js",
       icon: web,
     },
     {
@@ -72,7 +72,7 @@ import {
     //   icon: backend,
     // },
     {
-      title: "React JS Developer",
+      title: "Devops",
       icon: mobile,
     },
     {
@@ -105,16 +105,12 @@ import {
       icon: html,
     },
     {
-      name: "CSS 3",
+      name: "CSS ",
       icon: css,
     },
     {
       name: "C++",
       icon: CPLUS,
-    },
-    {
-      name: "Python",
-      icon: python,
     },
 
     {
@@ -153,14 +149,17 @@ import {
       name: "figma",
       icon: figma,
     },
-    
+    {
+      name: "Davinci",
+      icon: davinci ,
+    },
    
   ];
   
   const experiences = [
     
     {
-      title: "Executive Member",
+      title: "Marketing Coordinator",
       company_name: "Microsoft Learn Student Chapter",
       icon: mlsclogo1,
       iconBg:"#383E56",
@@ -176,7 +175,7 @@ import {
       ],
     },
     {
-      title: "Executive Member",
+      title: "Tech Coordinator",
       company_name: "Owasp",
       icon: owasplogo,
       iconBg: "black",
@@ -194,48 +193,7 @@ import {
   ];
   
   const projects = [
-    {
-      name: "Car Rent",
-      description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
+    
     {
       name: "Metaverse Madness",
       description:
