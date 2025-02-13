@@ -176,7 +176,7 @@ import Screenshot from "../assets/Screenshot.png";
     },
     {
       title: "Tech Coordinator",
-      company_name: "Owasp",
+      company_name: "OWASP Student Chapter",
       icon: owasplogo,
       iconBg: "black",
       date: "Nov 2023 - Present",
