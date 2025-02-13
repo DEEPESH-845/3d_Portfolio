@@ -167,9 +167,9 @@ import Screenshot from "../assets/Screenshot.png";
       
       points:
        [
-        "Developing and learning web applications  and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to provide high-quality services to the society",
-        "Participating in multiple hackathons and gaining insightful experience from the seniors",
+        "A student-led organization focused on increasing awareness and adoption of microsoft texhnolgies.",
+        "Organised many tech workshops and our flagship event Makeathon-6 (All India level Hackathon)",
+        "Engaged with peers to enhance learning experiences through workshops and projects",
         
 
       ],
@@ -181,8 +181,9 @@ import Screenshot from "../assets/Screenshot.png";
       iconBg: "black",
       date: "Nov 2023 - Present",
       points: [
-        "Developing and learning web applications  and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to provide high-quality services to the society",
+        "Organisation focused on improving the security of the software",
+        "Contributed in OWASP TIET Website",
+        "Worked with a team of 3 developers through the development and deployment phase of Capture The Flag (CTF) Website which successfully attracted 2000+ participants ",
         "Participating in multiple hackathons and gaining insightful experience from the seniors",
       ],
     },
