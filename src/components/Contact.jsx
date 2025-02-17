@@ -34,7 +34,7 @@ const Contact = () => {
 
     emailjs
       .send( 
-          'service_4iodykk',
+          'service_k6mjkj3',
           'template_hfq08vm',
         {
           from_name: form.name,
@@ -43,7 +43,7 @@ const Contact = () => {
           to_email: "dkakkar_be23@thapar.edu",
           message: form.message,
         },
-         '52qNlXoVkYIYDEaO2'
+         'idHdR0HSFa3AHZNBv'
       )
       .then(
         () => {
